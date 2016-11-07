@@ -1,0 +1,23 @@
+'use strict';
+
+<<<<<<< HEAD
+const game = require('./game');
+
+=======
+>>>>>>> e5d633b36b85006c8f62ce4087d06511451f6d17
+const authentication = require('./authentication');
+const user = require('./user');
+const mongoose = require('mongoose');
+module.exports = function() {
+  const app = this;
+
+  mongoose.connect(app.get('mongodb'));
+  mongoose.Promise = global.Promise;
+
+  app.configure(authentication);
+  app.configure(user);
+<<<<<<< HEAD
+  app.configure(game);
+=======
+>>>>>>> e5d633b36b85006c8f62ce4087d06511451f6d17
+};

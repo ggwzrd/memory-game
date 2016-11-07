@@ -1,0 +1,32 @@
+'use strict';
+
+const assert = require('assert');
+<<<<<<< HEAD
+const createGame = require('../../../../src/services/game/hooks/create-game.js');
+
+describe('game createGame hook', function() {
+=======
+const gameHost = require('../../../../src/services/game/hooks/game-host.js');
+
+describe('game gameHost hook', function() {
+>>>>>>> e5d633b36b85006c8f62ce4087d06511451f6d17
+  it('hook can be used', function() {
+    const mockHook = {
+      type: 'before',
+      app: {},
+      params: {},
+      result: {},
+      data: {}
+    };
+
+<<<<<<< HEAD
+    createGame()(mockHook);
+
+    assert.ok(mockHook.createGame);
+=======
+    gameHost()(mockHook);
+
+    assert.ok(mockHook.gameHost);
+>>>>>>> e5d633b36b85006c8f62ce4087d06511451f6d17
+  });
+});
