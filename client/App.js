@@ -11,7 +11,7 @@ class App extends Component {
     return(
       <MuiThemeProvider muiTheme={getMuiTheme(ChatTheme)}>
         <div>
-          <Header />
+          <Header/>
           <main className="app">
             {this.props.children}
           </main>

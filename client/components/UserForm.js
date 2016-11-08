@@ -106,7 +106,7 @@ export class UserForm extends Component {
           : null }
 
           <div className="controls">
-            <RaisedButton style={{ float: 'right' }} className="submit" type="submit" disabled={ this.state.passwordError } label={ signUp ? 'Sign Up' : 'Sign In' } primary={true}  />
+            <RaisedButton style={{ float: 'right' }} className="submit primary" type="submit" disabled={ this.state.passwordError } label={ signUp ? 'Sign Up' : 'Sign In' } primary={true}  />
             <FlatButton label={ signUp ? 'Sign In' : 'Sign Up' } className="submit" onClick={ this.switchMode.bind(this) }  />
           </div>
         </form>

@@ -11,6 +11,8 @@ import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert'
 import NavigationClose from 'material-ui/svg-icons/navigation/close'
 import destroySessionUser from '../actions/destroy-session-user'
 
+import './Header.sass'
+
 class Header extends Component {
   renderMenu() {
     const { destroySessionUser, userName, signedIn } = this.props
@@ -47,6 +49,7 @@ class Header extends Component {
 
       <AppBar
         title="MemoryGame"
+        className="header"
         iconElementRight={ this.renderMenu() }
       />
     )
