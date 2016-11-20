@@ -1,8 +1,17 @@
-# FeathersJS + React + Webpack
+# Memory Game
+
+<img src="http://i.imgur.com/dfRsfu3.png" width=600px />
 
 ## About
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+This project was made in the 6th week of the Codaisseur course to learn how to work with a Fullstack Javascript application using Feathersjs.
+
+## What I learned
+
+1. Authentication using feathers.
+2. How Mongodb works.
+3. How to use Hooks, Middleware and Services.
+
 
 ## Getting Started
 
