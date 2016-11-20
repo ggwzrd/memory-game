@@ -11,6 +11,7 @@ This project was made in the 6th week of the Codaisseur course to learn how to w
 1. Authentication using feathers.
 2. How Mongodb works.
 3. How to use Hooks, Middleware and Services.
+4. Material-ui.
 
 
 ## Getting Started
